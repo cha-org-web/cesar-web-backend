@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_navegacion_submenus",
+  "info": {
+    "name": "Submenu",
+    "icon": "arrow-down",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Link": {
+      "type": "component",
+      "repeatable": true,
+      "component": "navegacion.link"
+    },
+    "Nombre": {
+      "type": "string"
+    }
+  }
+}

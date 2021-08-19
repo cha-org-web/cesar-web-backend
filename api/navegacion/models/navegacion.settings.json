@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "navegacions",
+  "info": {
+    "name": "Navegación",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Links": {
+      "type": "dynamiczone",
+      "components": [
+        "navegacion.link",
+        "navegacion.submenu"
+      ]
+    }
+  }
+}

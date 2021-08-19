@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "Subscriptorus",
+  "info": {
+    "name": "Subscriptore",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "email": {
+      "type": "email"
+    }
+  }
+}
