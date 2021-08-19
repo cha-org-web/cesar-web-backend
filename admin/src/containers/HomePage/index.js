@@ -9,7 +9,8 @@ const HomePage = ({ global: { plugins }, history: { push } }) => {
         <div className="row">
           <div className="col-12">
             <Block>
-              <h2>CHA | Comunidad Homosexual Argentina</h2>
+              <h2 className="m-2">CHA | Comunidad Homosexual Argentina</h2>
+              <img src="https://cesar-web-frontend.vercel.app/static/cha_logo-7c982ca74078df090deb95533e0afc59.png" />
             </Block>
           </div>
         </div>
