@@ -92,8 +92,8 @@ async function createEntry({ model, entry, files }) {
 
 async function importPaginas() {
   return Promise.all(
-    biografias.map((biografia) => {
-      return createEntry({ model: "biografia", entry: biografia });
+    paginas.map((pagina) => {
+      return createEntry({ model: "pagina", entry: pagina });
     })
   );
 }
@@ -104,10 +104,7 @@ async function importSeedData() {
     global: ["find"],
     navegacion: ["find"],
     destacadas: ["find"],
-    article: ["find", "findone"],
-    area: ["find", "findone"],
-    biografia: ["find", "findone"],
-    suceso: ["find", "findone"],
+    paginas: ["find", "findone"],
   });
 
   // Create all entries
