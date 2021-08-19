@@ -1,61 +1,10 @@
 {
-  "areas": [
-    {
-      "id": 1,
-      "titulo": "Cultura",
-      "cuerpo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non urna faucibus, tincidunt ligula sit amet, malesuada metus. Mauris porta semper diam, et posuere sapien volutpat in. Nullam congue, lorem vel suscipit tincidunt, erat est tristique mi, eu fermentum lectus turpis non justo. Aenean dignissim eget ipsum at faucibus. Praesent tristique tellus vel odio egestas, id volutpat dui maximus. Proin vulputate dui sed dui viverra fermentum eu non ipsum. Nulla rutrum in nisl ut lacinia. Cras purus orci, faucibus sit amet dapibus eget, malesuada nec mauris.",
-      "slug": "cultura",
-      "logo": null
-    },
-    {
-      "id": 2,
-      "titulo": "Juridica",
-      "cuerpo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non urna faucibus, tincidunt ligula sit amet, malesuada metus. Mauris porta semper diam, et posuere sapien volutpat in. Nullam congue, lorem vel suscipit tincidunt, erat est tristique mi, eu fermentum lectus turpis non justo. Aenean dignissim eget ipsum at faucibus. Praesent tristique tellus vel odio egestas, id volutpat dui maximus. Proin vulputate dui sed dui viverra fermentum eu non ipsum. Nulla rutrum in nisl ut lacinia. Cras purus orci, faucibus sit amet dapibus eget, malesuada nec mauris.",
-      "slug": "juridica",
-      "logo": null
-    },
-    {
-      "id": 3,
-      "titulo": "Grupo Jóvenes",
-      "cuerpo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non urna faucibus, tincidunt ligula sit amet, malesuada metus. Mauris porta semper diam, et posuere sapien volutpat in. Nullam congue, lorem vel suscipit tincidunt, erat est tristique mi, eu fermentum lectus turpis non justo. Aenean dignissim eget ipsum at faucibus. Praesent tristique tellus vel odio egestas, id volutpat dui maximus. Proin vulputate dui sed dui viverra fermentum eu non ipsum. Nulla rutrum in nisl ut lacinia. Cras purus orci, faucibus sit amet dapibus eget, malesuada nec mauris.",
-      "slug": "jovenes",
-      "logo": null
-    },
-    {
-      "id": 4,
-      "titulo": "Salud",
-      "cuerpo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non urna faucibus, tincidunt ligula sit amet, malesuada metus. Mauris porta semper diam, et posuere sapien volutpat in. Nullam congue, lorem vel suscipit tincidunt, erat est tristique mi, eu fermentum lectus turpis non justo. Aenean dignissim eget ipsum at faucibus. Praesent tristique tellus vel odio egestas, id volutpat dui maximus. Proin vulputate dui sed dui viverra fermentum eu non ipsum. Nulla rutrum in nisl ut lacinia. Cras purus orci, faucibus sit amet dapibus eget, malesuada nec mauris.",
-      "slug": "salud",
-      "logo": null
-    }
-  ],
-  "biografias": [
-    {
-      "id": 1,
-      "titulo": "Carlos Jáuregui",
-      "cuerpo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non urna faucibus, tincidunt ligula sit amet, malesuada metus. Mauris porta semper diam, et posuere sapien volutpat in. Nullam congue, lorem vel suscipit tincidunt, erat est tristique mi, eu fermentum lectus turpis non justo. Aenean dignissim eget ipsum at faucibus. Praesent tristique tellus vel odio egestas, id volutpat dui maximus. Proin vulputate dui sed dui viverra fermentum eu non ipsum. Nulla rutrum in nisl ut lacinia. Cras purus orci, faucibus sit amet dapibus eget, malesuada nec mauris.",
-      "slug": "carlos-jauregui"
-    },
-    {
-      "id": 2,
-      "titulo": "Lohana Berkins",
-      "cuerpo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non urna faucibus, tincidunt ligula sit amet, malesuada metus. Mauris porta semper diam, et posuere sapien volutpat in. Nullam congue, lorem vel suscipit tincidunt, erat est tristique mi, eu fermentum lectus turpis non justo. Aenean dignissim eget ipsum at faucibus. Praesent tristique tellus vel odio egestas, id volutpat dui maximus. Proin vulputate dui sed dui viverra fermentum eu non ipsum. Nulla rutrum in nisl ut lacinia. Cras purus orci, faucibus sit amet dapibus eget, malesuada nec mauris.",
-      "slug": "lohana-berkins"
-    },
+  "paginas": [
     {
       "id": 3,
       "titulo": "César Cigliutti",
       "cuerpo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non urna faucibus, tincidunt ligula sit amet, malesuada metus. Mauris porta semper diam, et posuere sapien volutpat in. Nullam congue, lorem vel suscipit tincidunt, erat est tristique mi, eu fermentum lectus turpis non justo. Aenean dignissim eget ipsum at faucibus. Praesent tristique tellus vel odio egestas, id volutpat dui maximus. Proin vulputate dui sed dui viverra fermentum eu non ipsum. Nulla rutrum in nisl ut lacinia. Cras purus orci, faucibus sit amet dapibus eget, malesuada nec mauris.",
       "slug": "cesar-cicliutti"
-    }
-  ],
-  "sucesos": [
-    {
-      "id": 1,
-      "titulo": "Fundacion CHA",
-      "cuerpo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non urna faucibus, tincidunt ligula sit amet, malesuada metus. Mauris porta semper diam, et posuere sapien volutpat in. Nullam congue, lorem vel suscipit tincidunt, erat est tristique mi, eu fermentum lectus turpis non justo. Aenean dignissim eget ipsum at faucibus. Praesent tristique tellus vel odio egestas, id volutpat dui maximus. Proin vulputate dui sed dui viverra fermentum eu non ipsum. Nulla rutrum in nisl ut lacinia. Cras purus orci, faucibus sit amet dapibus eget, malesuada nec mauris.",
-      "fecha": "1984-04-16",
-      "slug": "fundacion-cha"
     }
   ],
   "destacadas": {
@@ -76,21 +25,5 @@
         "Descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non urna faucibus, tincidunt ligula sit amet, malesuada metus. Mauris porta semper diam, et posuere sapien volutpat in.\n\n"
       }
     ]
-  },
-  "articles": [
-    {
-      "id": 1,
-      "titulo": "Convocatoria",
-      "resumen": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non urna faucibus,",
-      "cuerpo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non urna faucibus, tincidunt ligula sit amet, malesuada metus. Mauris porta semper diam, et posuere sapien volutpat in.\n\n",
-      "slug": "convocatoria"
-    },
-    {
-      "id": 2,
-      "titulo": "Aniversario",
-      "resumen": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non urna faucibus,",
-      "cuerpo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non urna faucibus, tincidunt ligula sit amet, malesuada metus. Mauris porta semper diam, et posuere sapien volutpat in.\n\n",
-      "slug": "aniversario"
-    }
-  ]
+  }
 }

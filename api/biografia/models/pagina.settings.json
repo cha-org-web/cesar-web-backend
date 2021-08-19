@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "areas",
+  "collectionName": "paginas",
   "info": {
-    "name": "area",
+    "name": "Pagina",
     "description": ""
   },
   "options": {
@@ -12,15 +12,13 @@
   },
   "attributes": {
     "titulo": {
-      "type": "string",
-      "required": true,
-      "maxLength": 50
+      "type": "string"
     },
     "cuerpo": {
       "type": "richtext"
     },
-    "logo": {
-      "collection": "file",
+    "imagen": {
+      "model": "file",
       "via": "related",
       "allowedTypes": [
         "images",

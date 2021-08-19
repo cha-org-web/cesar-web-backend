@@ -4,10 +4,7 @@ const fs = require("fs");
 const path = require("path");
 const mime = require("mime-types");
 const {
-  areas,
-  biografias,
-  sucesos,
-  articles,
+  paginas,
 } = require("../../data/data.json");
 
 async function isFirstRun() {
@@ -93,34 +90,10 @@ async function createEntry({ model, entry, files }) {
   }
 }
 
-async function importArticles() {
-  return Promise.all(
-    articles.map((article) => {
-      return createEntry({ model: "article", entry: article });
-    })
-  );
-}
-async function importAreas() {
-  return Promise.all(
-    areas.map((area) => {
-      const files = {
-        logo: getFileData(`area-${area.slug}.png`),
-      };
-      return createEntry({ model: "area", entry: area, files });
-    })
-  );
-}
-async function importBiografias() {
+async function importPaginas() {
   return Promise.all(
     biografias.map((biografia) => {
       return createEntry({ model: "biografia", entry: biografia });
-    })
-  );
-}
-async function importSucesos() {
-  return Promise.all(
-    sucesos.map((suceso) => {
-      return createEntry({ model: "suceso", entry: suceso });
     })
   );
 }
@@ -138,10 +111,7 @@ async function importSeedData() {
   });
 
   // Create all entries
-  await importArticles();
-  await importAreas();
-  await importBiografias();
-  await importSucesos();
+  await importPaginas();
   await importGlobal();
 }
 
