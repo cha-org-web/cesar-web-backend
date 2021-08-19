@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/biografias",
-      "handler": "biografia.find",
+      "path": "/sucesos",
+      "handler": "suceso.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/biografias/count",
-      "handler": "biografia.count",
+      "path": "/sucesos/count",
+      "handler": "suceso.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/biografias/:id",
-      "handler": "biografia.findOne",
+      "path": "/sucesos/:id",
+      "handler": "suceso.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/biografias",
-      "handler": "biografia.create",
+      "path": "/sucesos",
+      "handler": "suceso.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/biografias/:id",
-      "handler": "biografia.update",
+      "path": "/sucesos/:id",
+      "handler": "suceso.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/biografias/:id",
-      "handler": "biografia.delete",
+      "path": "/sucesos/:id",
+      "handler": "suceso.delete",
       "config": {
         "policies": []
       }

@@ -1,8 +1,8 @@
 {
-  "kind": "collectionType",
-  "collectionName": "biografias",
+  "kind": "singleType",
+  "collectionName": "Links_global",
   "info": {
-    "name": "Biografia",
+    "name": "Link_global",
     "description": ""
   },
   "options": {
@@ -11,13 +11,7 @@
     "draftAndPublish": false
   },
   "attributes": {
-    "titulo": {
-      "type": "string"
-    },
-    "cuerpo": {
-      "type": "richtext"
-    },
-    "imagen": {
+    "favicon": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
@@ -28,9 +22,15 @@
       "plugin": "upload",
       "required": false
     },
-    "slug": {
-      "type": "uid",
-      "targetField": "titulo"
+    "Nombre_del_sitio": {
+      "type": "string",
+      "required": true
+    },
+    "defaultSeo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo",
+      "required": true
     }
   }
 }

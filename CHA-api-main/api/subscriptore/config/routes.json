@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/biografias",
-      "handler": "biografia.find",
+      "path": "/subscriptores",
+      "handler": "subscriptore.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/biografias/count",
-      "handler": "biografia.count",
+      "path": "/subscriptores/count",
+      "handler": "subscriptore.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/biografias/:id",
-      "handler": "biografia.findOne",
+      "path": "/subscriptores/:id",
+      "handler": "subscriptore.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/biografias",
-      "handler": "biografia.create",
+      "path": "/subscriptores",
+      "handler": "subscriptore.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/biografias/:id",
-      "handler": "biografia.update",
+      "path": "/subscriptores/:id",
+      "handler": "subscriptore.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/biografias/:id",
-      "handler": "biografia.delete",
+      "path": "/subscriptores/:id",
+      "handler": "subscriptore.delete",
       "config": {
         "policies": []
       }

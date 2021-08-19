@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "biografias",
+  "collectionName": "sucesos",
   "info": {
-    "name": "Biografia",
+    "name": "Suceso",
     "description": ""
   },
   "options": {
@@ -12,21 +12,16 @@
   },
   "attributes": {
     "titulo": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "cuerpo": {
-      "type": "richtext"
+      "type": "richtext",
+      "required": true
     },
-    "imagen": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false
+    "fecha": {
+      "required": true,
+      "type": "date"
     },
     "slug": {
       "type": "uid",

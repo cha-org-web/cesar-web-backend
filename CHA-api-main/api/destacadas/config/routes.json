@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/destacadas",
+      "handler": "destacadas.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/destacadas",
+      "handler": "destacadas.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/destacadas",
+      "handler": "destacadas.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

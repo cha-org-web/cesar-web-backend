@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "biografias",
+  "collectionName": "areas",
   "info": {
-    "name": "Biografia",
+    "name": "area",
     "description": ""
   },
   "options": {
@@ -12,13 +12,15 @@
   },
   "attributes": {
     "titulo": {
-      "type": "string"
+      "type": "string",
+      "required": true,
+      "maxLength": 50
     },
     "cuerpo": {
       "type": "richtext"
     },
-    "imagen": {
-      "model": "file",
+    "logo": {
+      "collection": "file",
       "via": "related",
       "allowedTypes": [
         "images",
